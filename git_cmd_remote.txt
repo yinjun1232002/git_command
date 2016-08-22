@@ -12,7 +12,9 @@ Remote Repository Related Commands:
   * Switch to the branch that you want to work with;
   * Change and commit locally
   * Push to remote and at the same time create the branch remotely with the same branchname
-    git push -u <remote-name> <branchname>
+    git push -u origin <branchname>
+    or
+    git push --set-upstream origin <branchname>
 
 4. Show branches information at local and remote repositories
     git remote show origin

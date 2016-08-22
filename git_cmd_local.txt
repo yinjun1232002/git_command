@@ -22,3 +22,6 @@ Local Repository Related Commands:
   * Merge from the branch <branchname>
     git merge <branchname>
 
+7. Reset to previous commit
+    git reset --hard # undo [git add] and all file modifications
+    git reset --mixed # only undo [git add]
