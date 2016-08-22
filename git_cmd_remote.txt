@@ -6,4 +6,10 @@ Remote Repository Related Commands:
 2. Clone a branch from gitlab to local directory
   * Create a new branch with name <branchname> from a master at gitlab
   * with command
-    git clone -b <branchname> <url> 
+    git clone -b <branchname> <url>
+
+3. Create a branch locally first, and push to remote
+  * Switch to the branch that you want to work with;
+  * Change and commit locally
+  * Push to remote and at the same time create the branch remotely with the same branchname
+    git push -u <remote-name> <branchname>
