@@ -5,4 +5,9 @@ Local Repository Related Commands:
 2. Add files that are to be committed
     git add -f <filename>
 
+3. Create a local branch
+    git branch <branchname>
+
+4. Switch among working branches
+    git checkout <branchname>
 
