@@ -1,0 +1,9 @@
+Remote Repository Related Commands:
+1. Clone the master from remote server
+    git clone <url>
+    eg. git clone https://github.com/yinjun1232002/git_command.git
+
+2. Clone a branch from gitlab to local directory
+  * Create a new branch with name <branchname> from a master at gitlab
+  * with command
+    git clone -b <branchname> <url> 
