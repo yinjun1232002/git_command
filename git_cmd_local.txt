@@ -1,0 +1,8 @@
+Local Repository Related Commands:
+1. Initiation of an empty repository
+    git init
+
+2. Add files that are to be committed
+    git add -f <filename>
+
+
