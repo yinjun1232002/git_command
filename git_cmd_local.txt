@@ -38,3 +38,6 @@ Local Repository Related Commands:
 
 10. Create .gitignore to tell git ignore adding file to staging
     echo \*.tmp > .gitignore
+
+11. Delete ignored files defined in .gitignore
+    git clean --force -X
