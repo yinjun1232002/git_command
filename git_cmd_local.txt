@@ -25,3 +25,16 @@ Local Repository Related Commands:
 7. Reset to previous commit
     git reset --hard # undo [git add] and all file modifications
     git reset --mixed # only undo [git add]
+
+8. Show untracked file
+    git status -u
+    or
+    git ls-files . --exclude-standard --others # List untracked files
+
+9. Remove untracked files
+   git clean --force # --force is required because it is potentially dangerous
+
+   git clean -n (or --dry-run) # it prints the output of the removals that would be performed but doesn't actually do so.
+
+10. Create .gitignore to tell git ignore adding file to staging
+    echo \*.tmp > .gitignore
