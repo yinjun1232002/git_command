@@ -11,3 +11,14 @@ Local Repository Related Commands:
 4. Switch among working branches
     git checkout <branchname>
 
+5. Delete a local branch
+    git branch --delete <branchname>
+    git branch -d <branchname> # shorter version
+    git branch -D <branchname> # Force delete un-merged branches
+
+6. Merge a branch to another
+  * checkout the branch to be merged to
+    git checkout <anotherbranchanme>
+  * Merge from the branch <branchname>
+    git merge <branchname>
+

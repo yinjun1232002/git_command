@@ -13,3 +13,10 @@ Remote Repository Related Commands:
   * Change and commit locally
   * Push to remote and at the same time create the branch remotely with the same branchname
     git push -u <remote-name> <branchname>
+
+4. Show branches information at local and remote repositories
+    git remote show origin
+
+5. Delete a remote branch <remotebranchname>
+    git push origin --delete <remotebranchname> # Git version >= 1.7.0
+    git push origian :<remotebranchname>        # Git version <  1.7.0
